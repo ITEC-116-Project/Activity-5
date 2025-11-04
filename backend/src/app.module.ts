@@ -31,7 +31,7 @@ import { CommentsModule } from './modules/comments/comments.module';
               database: 'dev.sqlite',
             }),
         autoLoadEntities: true,
-        synchronize: false, // ✅ Changed back to true, false for production
+        synchronize: true, // ✅ Changed back to true, false for production
       }),
     }),
 
